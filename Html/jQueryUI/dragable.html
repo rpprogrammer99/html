@@ -1,0 +1,52 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <link rel="stylesheet" href="dragable.css">
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#mdiv").draggable();
+
+            $("#hdiv span").draggable({
+                containment: "#hdiv"
+            });
+            $("#hodiv span").draggable({
+                axis: "x"
+            });
+            $("#vdiv span").draggable({
+                axis: "y"
+            });
+            $("#div3 span").draggable({
+                delay: 2000,
+                containment: "#div3"
+            });
+            $("#pdiv span").draggable({
+                distance: 200
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="mdiv">
+        <p>Hello</p>
+    </div><br />
+    <div id="hdiv">
+        <span>Hello</span><br /><br />
+    </div><br />
+    <div id="hodiv">
+        <span>Hello</span><br /><br />
+    </div><br />
+    <div id="vdiv">
+        <span>Hello</span><br /><br />
+    </div><br />
+    <div id="div3">
+        <span>Hello</span><br /><br />
+    </div><br />
+    <div id="pdiv">
+        <span>Hello</span><br /><br />
+    </div><br />
+</body>
+</html>

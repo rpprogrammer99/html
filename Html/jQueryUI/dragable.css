@@ -1,0 +1,20 @@
+#mdiv,
+#hdiv,
+#hodiv,
+#vdiv,
+#mdivDisable,
+#div3 {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background: lightslategray;
+    color: #ffffff;
+}
+
+#pdiv {
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    background: lightslategray;
+    color: #ffffff;
+}

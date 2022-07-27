@@ -1,0 +1,14 @@
+.mdiv {
+    background: forestgreen;
+    color: #FFFFFF;
+ }
+ .content {
+    color: #ffffff;
+ }
+ #maindiv
+ { 
+     width: 100px; 
+     height: 100px; 
+     padding: 10px;
+     text-align: center;
+}

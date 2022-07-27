@@ -1,0 +1,18 @@
+#l1,
+#l2 {
+    list-style-type: none;
+    width: 50%;
+}
+
+#l1 li,
+#l2 li {
+    margin: 20px;
+    padding: 20px;
+    font-size: 17px;
+    height: 2px;
+}
+
+.content {
+    background: crimson;
+    color: black;
+}

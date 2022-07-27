@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Sorting - JQuery UI</title>
+      <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet" type="text/css">
+      <link rel="stylesheet" href="list.css">
+      <script src = "https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript"></script>
+      <script type="text/javascript">
+          $(document).ready(function () {
+              
+			  $("#l1").sortable();
+            
+			  $("#l2").sortable();
+			  
+			  $("#l1").sortable({
+                  connectWith: "#l2, #l1"
+              });
+			  
+              $("#l2").sortable({
+                  connectWith: "#l1, #l2"
+              });
+			 
+		  });
+      </script>
+   </head>
+   
+   <body>
+      <div class = "main">
+         <div class = "main2"> 
+            <h3>List 1</h3>
+            <ul id = "l1">
+               <li class = "content">A</li>
+               <li class = "content">B</li>
+               <li class = "content">C</li>
+               <li class = "content">D</li>
+            </ul>
+         </div>
+         <div class = "main2">
+            <h3>List 2</h3> 
+            <ul id = "l2">
+               <li class = "content">1</li>
+               <li class = "content">2</li>
+               <li class = "content">3</li>
+               <li class = "content">4</li>
+            </ul>
+         </div>
+      </div>
+   </body>
+</html>

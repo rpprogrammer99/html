@@ -1,0 +1,25 @@
+.seconddiv {
+    background:grey;
+    border: 1px solid Gray;
+    color: #000000;
+    font-weight: bold;
+ }
+ .maindiv {
+    background: royalblue;
+    border: 1px solid #DDDDDD;
+    color: #ffffff;
+ }
+ .cls{background-color: green;color:#FFFFFF}
+ #mdiv { 
+    width: 100px; 
+    height: 100px; 
+    padding: 10px; 
+    margin: 10px; 
+ }
+ 
+ #ddiv{ 
+    width: 300px;
+    height: 300px;
+    padding: 10px; 
+    margin: 10px;  
+ }
